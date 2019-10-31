@@ -16,6 +16,7 @@ h1{
   width: 100vw;
 }
 .about-image{
+  background-image: url("images/cavspic.jpg");
   grid-column: 1/2;
   grid-column-row: 1/2;
   transform: rotate(90deg);
