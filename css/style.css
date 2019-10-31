@@ -21,3 +21,8 @@ h1{
   grid-row: 1/2;
   transform: rotate(90deg);
 }
+.project-images{
+  background-image: url("images/cavaliers-cavs-cleveland-1081256.jpg");
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
