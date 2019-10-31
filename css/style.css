@@ -21,7 +21,7 @@ h1{
   grid-row: 2/3;
   transform: rotate(90deg);
   max-height: 500px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 /* .projects-images{
   background-image: url("images/cavaliers-cavs-cleveland-1081256.jpg");
