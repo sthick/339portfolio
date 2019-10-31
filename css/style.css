@@ -107,7 +107,6 @@ text-align: center;
 }
 
 .about-image{
-background-image: url("../images/about.jpg");
 grid-column: 1/-1;
 grid-row: 3/4;
 max-height: 700px;
@@ -122,49 +121,32 @@ justify-self: center;
 align-self: center;
 }
 
-.method-image{
-background-image: url("../images/method.jpg");
+.projects-image{
 grid-column: 1/-1;
 grid-row: 4/5;
 max-height: 700px;
 overflow: hidden;
 }
 
-.method{
+.projects{
 grid-column: 2/3;
 grid-row: 4/5;
 justify-self: center;
 align-self: center;
 }
 
-.clients-image{
-background-image: url("../images/clients.jpg");
+.Resume-image{
 grid-column: 1/-1;
 grid-row: 5/6;
 max-height: 700px;
 overflow: hidden;
 }
 
-.clients{
+.Resume{
 grid-column: 2/3;
 grid-row: 5/6;
 justify-self: center;
 align-self: center;
-}
-
-.contact-image{
-background-image: url("../images/contact.jpg");
-grid-column: 1/-1;
-grid-row: 6/7;
-max-height: 700px;
-overflow: hidden;
-}
-
-.contact{
- grid-column: 2/3;
- grid-row: 6/7;
- justify-self: center;
- align-self: center;
 }
 
 .text-block{
