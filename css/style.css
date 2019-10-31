@@ -15,6 +15,29 @@ h1{
   padding: 50px 0;
   text-align: center;
 }
+.container{
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 15px;
+  width: 100vw;
+}
+.nav{
+  vertical-align: center;
+  grid-column: 1/-1;
+  grid-row-start: 1/1;
+  background-color: #ddd;
+  padding: 20px 0 20px; 
+  text-align: left; 
+  vertical-align: center;
+}
+.about-image{
+  grid-column: 1/-1;
+  grid-row: 3/4;
+  max-height: 700px;
+  overflow: hidden;
+}
+
 footer p{
     min-height: 60px;
     width: 100%;
