@@ -34,7 +34,7 @@ h1{
 .about-image{
   grid-column: 2/3;
   grid-row: 1/2;
-  rotate: 90deg;
+  transform: rotate(90deg);
   overflow: hidden;
 }
 .about{
