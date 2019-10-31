@@ -34,8 +34,6 @@ h1{
 .about-image{
   grid-column: 2/3;
   grid-row: 1/2;
-  /* max-height: 100px; */
-  max-width: 100px;
   rotate: 90deg;
   overflow: hidden;
 }
