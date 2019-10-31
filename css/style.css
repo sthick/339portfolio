@@ -13,5 +13,5 @@ h1{
   grid-template-columns: 100px 500px 100px;
   grid-template-rows: 30px auto auto auto auto 100px;
   grid-row-gap: 15p;
-  width: vw;
+  width: 100vw;
 }
