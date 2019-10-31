@@ -13,6 +13,7 @@ h1{
   grid-template-columns: 100px auto auto 100px;
   grid-template-rows: 30px auto auto auto auto 100px;
   grid-row-gap: 15p;
+  width: 100vw;
 }
 .about-image{
   background-image: url("images/cavspic.jpg");
