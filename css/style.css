@@ -18,7 +18,7 @@ h1{
 .container{
   display: grid;
   grid-template-columns: 100px 250px 250px 100px;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: 250px 250px 250px;
   grid-row-gap: 15px;
   width: 100vw;
 }
