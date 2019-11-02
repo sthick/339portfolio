@@ -16,9 +16,6 @@ h1{
 }
 .about-image{
   transform: rotate(90deg);
-  width: 100px;
-  height: 100px;
-  /* object-fit: cover; */
 }
 
   /* background-image: url("images/cavspic.jpg");
