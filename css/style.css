@@ -16,8 +16,8 @@ h1{
 }
 .about-image{
   transform: rotate(90deg);
-  width: 10px;
-  height: 10px;
+  width: 100px;
+  height: 100px;
   /* object-fit: cover; */
 }
 
