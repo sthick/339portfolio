@@ -65,6 +65,7 @@ nav a:hover{
   background-image: url("/images/cavspic1.jpg");
   justify-content: center;
   align-content: center;
+  transform: rotate(90deg);
   max-width: 1200px;
   max-height: 3000px;
   grid-column: 1/-1;
