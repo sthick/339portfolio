@@ -12,18 +12,28 @@ nav ul{
   text-align: center;
   position: relative;
 }
-
-nav li{
+.indexnav li{
   display : inline-block;
   padding-right: 15px;
   margin: 10px;
+  margin-top: 15px;
   font-size: 50px;
 }
-nav li:first-child{
+.aboutnav li{
+  display : inline-block;
+  padding-right: 15px;
+  margin: 5px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.indexnav li:first-child{
   text-decoration-line: underline;
   text-decoration-style: solid;
 }
-
+.aboutnav li:nth-child(2){
+  text-decoration-line: underline; 
+  text-decoration-style: solid;
+}
 nav a{
   color: black;
   font-weight: bold;
@@ -57,7 +67,6 @@ nav a:hover{
   align-content: center;
   max-width: 1200px;
   max-height: 3000px;
-  transform: rotate(90deg);
   grid-column: 1/-1;
   grid-row: 2/3;
   margin-top: 150px;
@@ -204,6 +213,60 @@ nav a:hover{
   font-weight: bold;
   text-decoration: underline;
 }
+
+
+.abouthead{
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  text-align: left;
+  font-size: 25px;
+  text-decoration: underline;
+  margin: 30px;
+  margin-bottom: 0px;
+  padding: 10px;
+  background-color: #A687CF;
+  border: 1px double black;
+  box-shadow: 10px 10px grey;
+}
+.headshot img{
+  background-image: url("/images/HeadShot.JPG");
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  margin: 25px;
+  border: 1px double black;
+  box-shadow: 10px 10px grey;
+  object-fit: cover;
+  overflow: hidden; 
+}
+.intro p{
+  text-align: center;
+  margin: 25px;
+  margin-top: 0px;
+  font-size: 10px;
+  grid-column: 1/-1;
+  grid-row: 3/4;
+  border: 1px double black;
+  padding: 25px;
+  line-height: 15px;
+  background-color: #A687CF;
+  box-shadow: 10px 10px grey;
+}
+.contact p{
+  text-align: left;
+  margin: 25px;
+  margin-top: 0px;
+  font-size: 10px;
+  grid-column: 1/-1;
+  grid-row: 3/4;
+  border: 1px double black;
+  padding: 25px;
+  line-height: 15px;
+  background-color: #A687CF;
+  box-shadow: 10px 10px grey;
+}
+
+
+
 footer{
   font-size: 20px;
   margin: 10px;
