@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div class="nav">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutMe.html">About</a></li>
+            <li><a href="Resume_Samantha_Thick.pdf">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="container">
+<div class="detail text-block">
+    <h1>Historical Page Update</h1>
+    <p>In preparation for a history of the Cleveland Cavaliers website a history of each team for the last fifty years was created and saved in a google spreadsheet.  Each team had its own worksheet filled with information from that year (e.g. Players, coaches, uniforms, ect).  This google spreadsheet needed to be added to an Amazon S3 bucket as a json file in order to be scraped and used for website creation. I was approached with the task of finding the easiest, and cheapest way to update an S3 bucket with a file for each year every time a change was made to that particular google spreadsheet.  The program I wrote allows that to happen because once deployed the runtime was set to every 4 seconds, therefore if a change is made the S3 bucket will be updated with that change almost immediately.</p>
+</div>
+</div>
+    <footer>
+        <p>University of Michigan School of Information </p>
+    </footer>
+</body>
+</html>

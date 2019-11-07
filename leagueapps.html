@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div class="nav">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutMe.html">About</a></li>
+            <li><a href="Resume_Samantha_Thick.pdf">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="container">
+<div class="detail text-block">
+    <h1>LeagueApps</h1>
+    <h2>Part 1:</h2>
+    <p>I was given the job to pull data from LeagueApps camp data that was unusable by the marketing department because of the form the data was in.  I did this by creating a lambda function to take relevant information gathered through camp/clinic registration from LeagueApps API and store it in the company's Amazon S3 bucket as a json file for future use.  This process previously was done every morning by a marketing employee who had to log into the LeagueApps website, download the necessary information as a csv file, clean the data to make it readable removing unnecessary information and checking for duplicate registrationIDs, and saving it for future use.  With the creation of this lambda there is no longer a need for manual labor because after deploying the code it will run every morning saving the information to the necessary location in an easily scrapable file as well as a file that is easy to read and access.</p>
+    <h2>Part 2:</h2>
+    <p>After pulling LeagueApps information we now wanted to add this information to the customer profile information the Cavaliers have been accumulating for years.  I was assigned with adding the new information from LeagueApps to the customer profile as well as updating the customer profile information that was already there.  The program I created pulls the customer profile information and LeagueApps information and checks for duplicates, updated existing information, and adds the the new contacts to the profile.</p>
+</div>
+</div>
+    <footer>
+        <p>University of Michigan School of Information </p>
+    </footer>
+</body>
+</html>

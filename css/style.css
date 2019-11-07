@@ -12,6 +12,7 @@ nav ul{
   text-align: center;
   position: relative;
 }
+
 .indexnav li{
   display : inline-block;
   padding-right: 15px;
@@ -26,11 +27,31 @@ nav ul{
   margin-top: 15px;
   font-size: 15px;
 }
+.nav li{
+  display : inline-block;
+  font-size: 15px;
+  padding-right: 15px;
+  margin: 10px;
+}
+.projnav li{
+  display : inline-block;
+  font-size: 50px;
+  padding-right: 15px;
+  margin: 10px;
+}
 .indexnav li:first-child{
   text-decoration-line: underline;
   text-decoration-style: solid;
 }
 .aboutnav li:nth-child(2){
+  text-decoration-line: underline; 
+  text-decoration-style: solid;
+}
+.projnav li:last-child{
+  text-decoration-line: underline; 
+  text-decoration-style: solid;
+}
+.nav li:last-child{
   text-decoration-line: underline; 
   text-decoration-style: solid;
 }
@@ -49,7 +70,30 @@ nav a:hover{
   grid-template-rows: 100px 13(600px) ;
   grid-gap: 15px;
 }
-.container header{
+h1{
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline;
+  margin: 30px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  padding: 30px;
+  background-color: #A687CF;
+  border: 1px double black;
+  box-shadow: 10px 10px grey;
+}
+img{
+  max-width: 900px;
+  max-height: 1000px;
+  grid-column: 1/-1;
+  margin: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px double black;
+  box-shadow: 15px 15px grey;
+  overflow: hidden;
+}
+.indhead{
   background-color: #A687CF;
   box-shadow: 15px 15px grey;
   font-family: "Segoe Script";
@@ -216,7 +260,7 @@ nav a:hover{
 }
 
 
-.abouthead{
+.abouthead h1{
   grid-column: 1/-1;
   grid-row: 1/2;
   text-align: left;
@@ -267,7 +311,158 @@ nav a:hover{
 }
 
 
+.cavsproj li{
+  list-style-type: none;
+  text-align: center;
+  font-size: 25px;
+  margin: 30px;
+  margin-bottom: 0px;
+  padding: 10px;
+  background-color: #A687CF;
+  border: 1px double black;
+  box-shadow: 10px 10px grey;
+}
+.cavsproj a{
+  color: black;
+  text-decoration-style: none;
+  text-decoration-line: underline;
+  font-weight: bold;
+}
+.cavsproj li:nth-child(2){
+  margin-left: 30px;
+  padding-left: 50px;
+  padding-right: 55px;
+}
+.softballproj li{
+  list-style-type: none;
+  text-align: center;
+  font-size: 25px;
+  margin: 30px;
+  margin-bottom: 0px;
+  padding: 10px;
+  background-color: #A687CF;
+  border: 1px double black;
+  box-shadow: 10px 10px grey;
+}
+.softballproj a{
+  color: black;
+  text-decoration-style: none;
+  text-decoration-line: underline;
+  font-weight: bold;
+}
+.graphicproj a{
+  list-style-type: none;
+  text-align: center;
+  font-size: 25px;
+  margin: 30px;
+  margin-bottom: 0px;
+  padding-left: 490px;
+  padding-right: 490px;
+  background-color: #A687CF;
+  border: 1px double black;
+  box-shadow: 10px 10px grey;
+}
+.graphicproj a{
+  color: black;
+  text-decoration-style: none;
+  text-decoration-line: underline;
+  font-weight: bold;
+}
 
+.detail h1{
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  margin: 30px;
+  margin-bottom: 0px;
+}
+.detail p{
+  text-align: left;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 25px;
+  width: 320px;
+  background-color: #A687CF;
+  border: 1px double black;
+  box-shadow: 10px 10px grey;
+}
+
+.gdnav li{
+  display : inline-block;
+  padding-right: 15px;
+  margin: 10px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+.gdnav li:last-child{
+  text-decoration-line: underline; 
+  text-decoration-style: solid;
+}
+.wordportrait img{
+  background-image: url("images/umichwp.jpg");
+  max-width: 900px;
+  max-height: 1000px;
+  grid-column: 1/-1;
+  margin: 150px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border: 1px double black;
+  box-shadow: 15px 15px grey;
+  overflow: hidden;
+}
+.bbb img{
+  max-width: 400px;
+  max-height: 400px;
+  grid-column: 1/-1;
+  margin: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px double black;
+  box-shadow: 15px 15px grey;
+  overflow: hidden;
+}
+.bbb h1{
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.bbb ul{
+    list-style-type: none;
+}
+.logo img{
+  background-image: url("images/HM Logo.jpg");
+  max-width: 900px;
+  max-height: 1000px;
+  grid-column: 1/-1;
+  margin: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px double black;
+  box-shadow: 15px 15px grey;
+  overflow: hidden;
+}
+.grad img{
+  background-image: url("images/grad ticket 2 real final.jpg");
+  max-width: 900px;
+  max-height: 1000px;
+  grid-column: 1/-1;
+  margin: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px double black;
+  box-shadow: 15px 15px grey;
+  overflow: hidden;
+}
+.infographics img{
+  max-width: 400px;
+  max-height: 400px;
+  grid-column: 1/-1;
+  margin: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px double black;
+  box-shadow: 15px 15px grey;
+  overflow: hidden;
+}
 footer{
   font-size: 20px;
   margin: 10px;
