@@ -63,7 +63,3 @@ nav a:hover{
     color: black;
     font-size: 15px;
 }
-.about{
-    grid-column: 1/8;
-    background-color: #E2CDEE;
-}
