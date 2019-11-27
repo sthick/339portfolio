@@ -31,7 +31,7 @@ nav ul{
 nav li{
     display: inline-block;
     margin: 10px;
-    font-size: 25px;
+    font-size: 15px;
 }
 .indexnav li:first-child{
     margin-left: 0px;
@@ -59,7 +59,7 @@ nav a:hover{
     font-family: 'Roboto', sans-serif;
     text-align: left;
     color: black;
-    font-size: 25px;
+    font-size: 15px;
 }
 .about{
     background-color: #E2CDEE;
