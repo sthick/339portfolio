@@ -4,7 +4,6 @@ html{
 body{
     background-color: white;
     display: inline-block;
-    color:white;
     font-family: "Minion Variable Concept";
 }
 .skip a{
@@ -45,7 +44,6 @@ nav ul{
     text-decoration-style: solid;
 }
 nav a{
-    color: white;
     font-weight: bold;
     text-decoration: none;
 }
