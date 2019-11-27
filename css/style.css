@@ -29,20 +29,15 @@ nav ul{
     text-align: center;
     position: relative;
 }
-.indexnav li{
-    display: inline-block;
-    padding-right: 10px;
-    margin: 10px;
-    margin-left: 5px;
-    margin-top: 15px;
-    font-size: 25px;
-}
 .indexnav li:first-child{
     margin-left: 0px;
     text-decoration-line: underline;
     text-decoration-style: solid;
 }
 nav a{
+    display: inline-block;
+    margin: 10px;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -63,7 +58,7 @@ nav a:hover{
     font-family: 'Roboto', sans-serif;
     text-align: left;
     color: black;
-    font-size: 12px;
+    font-size: 25px;
 }
 .about img{
     background-image: url("/images/cavspic1.jpg");
