@@ -747,9 +747,10 @@ footer{
         grid-template-columns: 1fr;
     }
     .indhead h1{
+        font-family: "Impact";
         text-align: left;
         color: black;
-        background-color: none;
+        background-color: white;
         border: none;
         box-shadow: none;
         font-size: 12px;
