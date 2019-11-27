@@ -748,7 +748,7 @@ footer{
     .container{
         grid-template-columns: 1fr;
     }
-    .indhead{
+    .indhead h1{
         text-align: left;
         color: black;
     }
