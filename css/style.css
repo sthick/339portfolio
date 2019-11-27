@@ -25,6 +25,7 @@ body{
 
 
 nav ul{
+    float: center;
     list-style-type: none;
     text-align: center;
     position: relative;
