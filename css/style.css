@@ -23,11 +23,9 @@ body{
     border: 2px solid black;
 }
 
-
 nav ul{
-    float: center;
     list-style-type: none;
-    text-align: center;
+    text-align: right;
     position: relative;
 }
 nav li{
