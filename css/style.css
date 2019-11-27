@@ -47,7 +47,7 @@ nav a:hover{
 }
 .container{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 15% 15% 15% 15% 15% 15% 15% ;
     grid-template-rows: 13(200px);
     justify-content: center;
 }
@@ -65,7 +65,7 @@ nav a:hover{
     background-color: #E2CDEE;
 }
 .about img{
-    padding: 20px;
+    grid-column: 3/6;
 }
 .atext{
     text-align: center;
