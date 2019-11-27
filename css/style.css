@@ -62,3 +62,6 @@ nav a:hover{
     text-align: left;
     font-size: 15px;
 }
+.atext{
+    grid-column: 2/6;
+}
