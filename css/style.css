@@ -63,9 +63,11 @@ nav a:hover{
     color: black;
     font-size: 25px;
 }
+.about{
+    background-color: #E2CDEE;
+}
 .about img{
     background-image: url("/images/cavspic1.jpg");
-    background-color: #E2CDEE;
     height: 250px;
     grid-column: 1/-1;
     grid-row: 2/3;
