@@ -65,9 +65,6 @@ nav a:hover{
 .about{
     background-color: #E2CDEE;
 }
-.about img{
-    grid-column: 3/6;
-}
 .atext{
     text-align: center;
     margin: 25px;
