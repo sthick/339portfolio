@@ -751,6 +751,10 @@ footer{
     .indhead h1{
         text-align: left;
         color: black;
+        background-color: none;
+        border: none;
+        box-shadow: none;
+        font-size: 12px;
     }
     .aboutnav{
         text-align: left;
