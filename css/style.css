@@ -43,7 +43,6 @@ nav ul{
     text-decoration-style: solid;
 }
 nav a{
-    color: white;
     font-weight: bold;
     text-decoration: none;
 }
@@ -59,14 +58,11 @@ nav a:hover{
 #name{
     float: left;
     margin-left: 5%;
-    margin-top: 25px;
+    margin-top: -30px;
     position: absolute;
     font-family: 'Roboto', sans-serif;
     text-align: left;
     color: black;
-    background-color: white;
-    border: none;
-    box-shadow: none;
     font-size: 12px;
 }
 .about img{
@@ -77,8 +73,6 @@ nav a:hover{
     margin: 50px;
     margin-left: 150px;
     margin-bottom: 0px;
-    border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
 }
 .atext{
     text-align: center;
@@ -89,9 +83,6 @@ nav a:hover{
     grid-row: 3/4;
     padding: 25px;
     line-height: 20px;
-    background-color:#3F2F56;
-    border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
 }
 .atext a{
     color: white;
