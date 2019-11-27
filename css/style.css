@@ -49,6 +49,7 @@ nav a:hover{
 .container{
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15% 15%;
+    grid-column-rows: auto auto auto auto auto;
     width: 100vw;
     justify-content: center;
 }
@@ -63,134 +64,6 @@ nav a:hover{
     font-size: 15px;
 }
 .about{
+    grid-column: 1/8;
     background-color: #E2CDEE;
-}
-.atext{
-    text-align: center;
-    margin: 25px;
-    margin-top: 70px;
-    font-size: 15px;
-    grid-column: 1/-1;
-    grid-row: 3/4;
-    padding: 25px;
-    line-height: 20px;
-}
-.atext a{
-    color: white;
-    font-weight: bold;
-    text-decoration: underline;
-}
-.cavs img{
-    background-image: url("images/cavaliers-cavs-cleveland-1081256.jpg");
-    /* max-width: 100%; */
-    max-height: 250px;
-    grid-column: 1/-1;
-    grid-row: 4/5;
-    margin: 25px;
-    margin-bottom: 0px;
-    border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
-}
-.ctext{
-    text-align: center;
-    margin: 25px;
-    font-size: 15px;
-    grid-column: 1/-1;
-    grid-row: 5/6;
-    padding: 25px;
-    line-height: 20px;
-    background-color: #3F2F56;
-    border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
-}
-.ctext a{
-    color: white;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.softball img{
-    background-image: url("images/msoftball.jpg");
-    /* max-width: 100%; */
-    max-height: 400px;
-    grid-column: 1/-1;
-    grid-row: 6/7;
-    margin: 50px;
-    margin-bottom: 0px;
-    border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
-}
-.stext{
-    text-align: center;
-    margin: 25px;
-    font-size: 15px;
-    grid-column: 1/-1;
-    grid-row: 7/8;
-    padding: 25px;
-    line-height: 20px;
-    background-color: #3F2F56;
-    border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
-}
-.stext a{
-    color: white;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.personal img{
-    background-image: url("images/bbb program 2.jpg");
-    /* max-width: 100%; */
-    max-height: 300px;
-    grid-column: 1/-1;
-    grid-row: 8/9;
-    margin: 50px;
-    margin-bottom: 0px;
-    border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
-}
-.ptext{
-    text-align: center;
-    margin: 25px;
-    font-size: 15px;
-    grid-column: 1/-1;
-    grid-row: 9/10;
-    padding: 25px;
-    line-height: 20px;
-    background-color: #3F2F56;
-    border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
-}
-.ptext a{
-    color: white;
-    font-weight: bold;
-    text-decoration: underline;
-}
-.resume img{
-    background-image: url("images/michigan.jpg");
-    /* max-width: 100%; */
-    max-height: 300px;
-    grid-column: 1/-1;
-    grid-row: 10/11;
-    margin: 50px;
-    margin-bottom: 0px;
-    border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
-} 
-.rtext{
-    text-align: center;
-    margin: 25px;
-    font-size: 15px;
-    grid-column: 1/-1;
-    grid-row: 11/12;
-    padding: 25px;
-    line-height: 20px;
-    background-color: #3F2F56;
-    border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
-}
-.rtext a{
-    color: white;
-    font-weight: bold;
-    text-decoration: underline;
 }
