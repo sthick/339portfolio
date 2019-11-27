@@ -64,15 +64,6 @@ nav a:hover{
 .about{
     background-color: #E2CDEE;
 }
-.about img{
-    background-image: url("/images/cavspic1.jpg");
-    height: 250px;
-    grid-column: 1/-1;
-    grid-row: 2/3;
-    margin: 50px;
-    margin-left: 150px;
-    margin-bottom: 0px;
-}
 .atext{
     text-align: center;
     margin: 25px;
