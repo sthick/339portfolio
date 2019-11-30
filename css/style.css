@@ -193,7 +193,7 @@ nav a:hover{
     box-shadow: 10px 10px grey;
 }
 .ptext a{
-    color: black
+    color: black;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -233,11 +233,12 @@ nav a:hover{
 
 
 .aboutnav li{
-    display : inline-block;
-    padding-right: 15px;
-    margin: 5px;
+    display: inline-block;
+    padding-right: 10px;
+    margin: 10px;
+    margin-left: 5px;
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 25px;
 }
 .aboutnav li:nth-child(2){
     text-decoration-line: underline; 
