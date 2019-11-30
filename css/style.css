@@ -193,7 +193,7 @@ nav a:hover{
     box-shadow: 10px 10px grey;
 }
 .ptext a{
-    color: white;
+    color: black
     font-weight: bold;
     text-decoration: underline;
 }
@@ -221,7 +221,7 @@ nav a:hover{
     box-shadow: 10px 10px grey;
 }
 .rtext a{
-    color: white;
+    color:black;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -306,7 +306,7 @@ button[type=text], select, textarea{
 }
 
 button[type=submit]{
-    color: white;
+    color:black;
     padding: 10px;
     margin: 30px;
     background-color:#D0B5DA;
@@ -314,7 +314,7 @@ button[type=submit]{
     box-shadow: 10px 10px grey;
 }
 button[type=submit]:hover{
-    color: white;
+    color:black;
     background-color:#D0B5DA;
     box-shadow: 10px 10px grey;
 }
@@ -370,7 +370,7 @@ button[type=submit]:hover{
 }
 .flip-card-back {
     padding: 10px;
-    color: white;
+    color: black;
     background-color: #D0B5DA;
     transform: rotateY(180deg);
 }
