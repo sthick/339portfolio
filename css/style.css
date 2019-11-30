@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color:#644D84;
+    background-image: url("/images/background.jpg");
     display: inline-block;
     color:white;
     font-family: "Minion Variable Concept";
