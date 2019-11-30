@@ -107,7 +107,7 @@ nav a:hover{
     box-shadow: 10px 10px grey;
 }
 .atext a{
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -164,7 +164,7 @@ nav a:hover{
     box-shadow: 10px 10px grey;
 }
 .stext a{
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -395,7 +395,7 @@ button[type=submit]:hover{
 }
 .collapsible{
     display: block;
-    color: white;
+    color: black;
     cursor: pointer;
     padding: 10px;
     width: 400px; 
@@ -478,7 +478,7 @@ button[type=submit]:hover{
 }
 
 .graphicproj a{
-    color: white;
+    color: black;
     padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
@@ -515,7 +515,7 @@ button[type=submit]:hover{
     box-shadow: 10px 10px grey;
 }
 .graphicproj a{
-    color: white;
+    color: black;
 }
 
 
@@ -584,7 +584,7 @@ img:hover{
 }
 footer{
     font-size: 15px;
-    color: white;
+    color: black;
     font-weight: bold;
     margin: 10px;
     margin-top: 50px;
@@ -923,7 +923,7 @@ footer{
     }
   
     .skip a{
-      background: white;
+      background: black;
       left: 0;
       padding: 6px;
       position: absolute;
