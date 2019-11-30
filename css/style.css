@@ -135,7 +135,7 @@ nav a:hover{
     box-shadow: 10px 10px grey;
 }
 .ctext a{
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: underline;
 }
