@@ -2,7 +2,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: url("/images/msoftball.jpg");
+    background-image: url("/images/background.jpg");
+    background-color: grey;
     display: inline-block;
     color:white;
     font-family: "Minion Variable Concept";
