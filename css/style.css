@@ -239,6 +239,12 @@ nav a:hover{
     margin-left: 5px;
     margin-top: 15px;
     font-size: 25px;
+
+    /* display : inline-block;
+    padding-right: 15px;
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 15px; */
 }
 .aboutnav li:nth-child(2){
     text-decoration-line: underline; 
@@ -734,9 +740,6 @@ footer{
         margin: 10px;
         margin-left: 5px;
         margin-right: 20px;
-    }
-    .aboutnav{
-        text-align: left;
     }
     .about{
         grid-column: 1/2;
