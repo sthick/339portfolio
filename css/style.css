@@ -4,12 +4,10 @@ html{
 body{
     background-image: url("/images/background.jpg");
     background-color: #E6E5E1;
-    display: inline-block;
-    color:white;
+    display: inline-block;;
     font-family: "Minion Variable Concept";
 }
 .skip a{
-    background: white;
     left: 0;
     padding: 6px;
     position: absolute;
@@ -46,7 +44,6 @@ nav ul{
     text-decoration-style: solid;
 }
 nav a{
-    color: white;
     font-weight: bold;
     text-decoration: none;
 }
@@ -81,9 +78,9 @@ nav a:hover{
     margin: 25px;
     margin-top: 5px;
     padding: 30px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .about img{
     background-image: url("/images/cavspic1.jpg");
@@ -94,7 +91,7 @@ nav a:hover{
     margin-left: 150px;
     margin-bottom: 0px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .atext{
     text-align: center;
@@ -105,9 +102,9 @@ nav a:hover{
     grid-row: 3/4;
     padding: 25px;
     line-height: 20px;
-    background-color:#3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .atext a{
     color: white;
@@ -123,7 +120,7 @@ nav a:hover{
     margin: 25px;
     margin-bottom: 0px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .ctext{
     text-align: center;
@@ -133,9 +130,9 @@ nav a:hover{
     grid-row: 5/6;
     padding: 25px;
     line-height: 20px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .ctext a{
     color: white;
@@ -152,7 +149,7 @@ nav a:hover{
     margin: 50px;
     margin-bottom: 0px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .stext{
     text-align: center;
@@ -162,9 +159,9 @@ nav a:hover{
     grid-row: 7/8;
     padding: 25px;
     line-height: 20px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .stext a{
     color: white;
@@ -181,7 +178,7 @@ nav a:hover{
     margin: 50px;
     margin-bottom: 0px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .ptext{
     text-align: center;
@@ -191,9 +188,9 @@ nav a:hover{
     grid-row: 9/10;
     padding: 25px;
     line-height: 20px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .ptext a{
     color: white;
@@ -209,7 +206,7 @@ nav a:hover{
     margin: 50px;
     margin-bottom: 0px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 } 
 .rtext{
     text-align: center;
@@ -219,9 +216,9 @@ nav a:hover{
     grid-row: 11/12;
     padding: 25px;
     line-height: 20px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .rtext a{
     color: white;
@@ -248,27 +245,7 @@ nav a:hover{
     text-decoration-style: solid;
 }
 .abouthead h1{
-    color: #e0dfdc;
-    background-color: #35204d;
     letter-spacing: .1em;
-    text-shadow: 
-      0 -1px 0 #fff, 
-      0 1px 0 #2e2e2e, 
-      0 2px 0 #2c2c2c, 
-      0 3px 0 #2a2a2a, 
-      0 4px 0 #282828, 
-      0 5px 0 #262626, 
-      0 6px 0 #242424, 
-      0 7px 0 #222, 
-      0 8px 0 #202020, 
-      0 9px 0 #1e1e1e, 
-      0 10px 0 #1c1c1c, 
-      0 11px 0 #1a1a1a, 
-      0 12px 0 #181818, 
-      0 13px 0 #161616, 
-      0 14px 0 #141414, 
-      0 15px 0 #121212, 
-      0 22px 30px rgba(0, 0, 0, 0.9);
     grid-column: 1/-1;
     grid-row: 1/2;
     text-align: left;
@@ -278,9 +255,9 @@ nav a:hover{
     margin-bottom: 0px;
     padding: 10px;
     padding-bottom: 30px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .headshot img{
     background-image: url("/images/HeadShot.JPG");
@@ -290,7 +267,7 @@ nav a:hover{
     margin: 25px;
     margin-left:75px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .intro p{
     text-align: center;
@@ -301,9 +278,9 @@ nav a:hover{
     grid-row: 3/4;
     padding: 25px;
     line-height: 15px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .contact p{
     text-align: left;
@@ -314,9 +291,9 @@ nav a:hover{
     grid-row: 3/4;
     padding: 25px;
     line-height: 15px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 button[type=text], select, textarea{
     width: 90%;
@@ -332,20 +309,20 @@ button[type=submit]{
     color: white;
     padding: 10px;
     margin: 30px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 button[type=submit]:hover{
     color: white;
-    background-color: #CF387F;
-    box-shadow: 10px 10px #3F2F56;
+    background-color:#D0B5DA;
+    box-shadow: 10px 10px grey;
 }
 .formcontainer{
     margin: 50px;
-    background-color:#3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .formcontainer legend{
     margin-top: 30px;
@@ -365,7 +342,7 @@ button[type=submit]:hover{
     height: 300px;
     perspective: 1000px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F
+    box-shadow: 10px 10px grey;
 }
 .flip-card-inner {
     position: relative;
@@ -394,7 +371,7 @@ button[type=submit]:hover{
 .flip-card-back {
     padding: 10px;
     color: white;
-    background-color: #3F2F56;
+    background-color: #D0B5DA;
     transform: rotateY(180deg);
 }
 /* .parallax{
@@ -418,15 +395,15 @@ button[type=submit]:hover{
     text-decoration-style: solid;
 }
 .collapsible{
-    background-color: #3F2F56;
     display: block;
     color: white;
     cursor: pointer;
     padding: 10px;
     width: 400px; 
     margin-left: 50px;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
     text-align: center;
 }
 .cavscontainer p{
@@ -434,9 +411,9 @@ button[type=submit]:hover{
     margin: 50px;
     width: 300px;
     display: none;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .cavscontainer{
     border: none;
@@ -450,9 +427,9 @@ button[type=submit]:hover{
     margin: 30px;
     margin-bottom: 0px;
     padding: 10px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .cavsproj img{
     background-image: url("images/cavaliers-cavs-cleveland-1081256.jpg");
@@ -463,16 +440,16 @@ button[type=submit]:hover{
     margin: 25px;
     margin-bottom: 50px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;;
 }
 .softballproj li{
     padding: 15px;
     display: none;
     margin: 50px;
     width: 300px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .softballproj h1{
     grid-column: 1/-1;
@@ -484,9 +461,9 @@ button[type=submit]:hover{
     margin-top: 50px;
     margin-bottom: 0px;
     padding: 10px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .softballproj img{
     background-image: url("images/msoftball.jpg");
@@ -498,7 +475,7 @@ button[type=submit]:hover{
     margin-top: 25px;
     margin-bottom: 50px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 
 .graphicproj a{
@@ -509,9 +486,9 @@ button[type=submit]:hover{
     margin: 100px;
     margin-top: 50px;
     margin-bottom: 500px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .graphicproj h1{
     grid-column: 1/-1;
@@ -522,9 +499,9 @@ button[type=submit]:hover{
     margin: 30px;
     margin-bottom: 0px;
     padding: 10px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .graphicproj img{
     background-image: url("images/bbb program 2.jpg");
@@ -536,7 +513,7 @@ button[type=submit]:hover{
     margin-bottom: 50px;
     margin-top: 25px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .graphicproj a{
     color: white;
@@ -565,9 +542,9 @@ button[type=submit]:hover{
     margin: 30px;
     margin-bottom: 0px;
     padding: 10px;
-    background-color: #3F2F56;
+    background-color:#D0B5DA;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .play img{
     width: 75%;
@@ -578,7 +555,7 @@ button[type=submit]:hover{
     margin-bottom: 25px;
     margin-top: 25px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .more img{
     width: 75%;
@@ -589,7 +566,7 @@ button[type=submit]:hover{
     margin-bottom: 25px;
     margin-top: 25px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F;
+    box-shadow: 10px 10px grey;
 }
 .add img{
     width: 75%;
@@ -600,7 +577,7 @@ button[type=submit]:hover{
     margin-bottom: 25px;
     margin-top: 25px;
     border: 1px double black;
-    box-shadow: 10px 10px #CF387F; 
+    box-shadow: 10px 10px grey;
 }
 img:hover{   
    -webkit-filter: grayscale(100%);
